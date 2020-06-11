@@ -219,4 +219,4 @@ async def kick(ctx, member: discord.Member, *, reason=None):
 async def ban(ctx, member: discord.Member, *, reason=None):
     await member.ban(reason=reason)
 client.loop.create_task(background_task())
-client.run("NjU4NDAyNzEzMzQ4MDc5NjM2.XjWzng.bA8tPf5vmilsi0KuChFK8hc4ppk")
+client.run("token")
