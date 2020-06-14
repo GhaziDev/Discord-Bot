@@ -9,7 +9,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib import style
 style.use("fivethirtyeight")
-token = open("token.txt", "r").read()
 client = commands.Bot(command_prefix="!")
 ProgrammingHeroes = client.get_guild(658403310516174899)
 ID = discord.User.id
