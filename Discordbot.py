@@ -11,7 +11,6 @@ from matplotlib import style
 style.use("fivethirtyeight")
 client = commands.Bot(command_prefix="!")
 ProgrammingHeroes = client.get_guild(658403310516174899)
-ID = discord.User.id
 profanity = ["fuck", "fick", "fck", "slut", "cunt", "bithc", "btch", "bch", "son of beach", "son of bitch",
              "sun of bitch", "sun of beach", "skrub", "pussy", "fucking", "fucker", "fcking", "fckr", "fcker"]
 
